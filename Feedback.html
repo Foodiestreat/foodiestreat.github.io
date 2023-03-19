@@ -1,0 +1,97 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="css/feedback20.css">  
+<title>Foodiestreat</title>  
+<link rel="icon" type="image/x-icon" href="images/restauranticon.jpg">  
+</head>    
+<body>    
+<center><h2>FEED BACK FORM</h2></center>   
+<div class="container">    
+  <form action="feedback.php" method="post">    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="fname">First Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="fname" name="firstname" placeholder="Your name.." required>    
+      </div>    
+    </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="lname">Last Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>    
+      </div>    
+    </div>    
+    <div class="row">    
+        <div class="col-25">    
+          <label for="email">Mail Id</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="email" id="email" name="mailid" placeholder="Your mail id.." required>    
+        </div>    
+      </div>    
+    <div class="row">    
+      <div class="col-25">    
+            <label for="r1">Food Quality</label>
+      </div>    
+      <div class="col-75">    
+           <input type="radio" id="food_q1" name="f_quality" value="Excellent" required>Excellent
+           <input type="radio" id="food_q2" name="f_quality" value="Good" required>Good
+           <input type="radio" id="food_q3" name="f_quality" value="Average" required>Average
+           <input type="radio" id="food_q4" name="f_quality" value="Dissatisfied" required>Dissatisfied
+      </div>    
+    </div>
+    <div class="row">    
+      <div class="col-25">    
+            <label for="r1">Service Quality</label>
+      </div>    
+      <div class="col-75">    
+           <input type="radio" id="service_q1" name="s_quality" value="Excellent" required>Excellent
+           <input type="radio" id="service_q2" name="s_quality" value="Good" required>Good
+           <input type="radio" id="service_q3" name="s_quality" value="Average" required>Average
+           <input type="radio" id="service_q4" name="s_quality" value="Dissatisfied" required>Dissatisfied
+      </div>    
+    </div>  
+    <div class="row">    
+      <div class="col-25">    
+            <label for="r1">Cleanliness</label>
+      </div>    
+      <div class="col-75">    
+           <input type="radio" id="clean_q1" name="c_quality" value="Excellent" required>Excellent
+           <input type="radio" id="clean_q2" name="c_quality" value="Good" required>Good
+           <input type="radio" id="clean_q3" name="c_quality" value="Average" required>Average
+           <input type="radio" id="clean_q4" name="c_quality" value="Dissatisfied" required>Dissatisfied
+      </div>    
+    </div>
+    <div class="row">    
+      <div class="col-25">    
+            <label for="r1">Overall Experience</label>
+      </div>    
+      <div class="col-75">    
+           <input type="radio" id="all_q1" name="all_quality" value="Excellent" required>Excellent
+           <input type="radio" id="all_q2" name="all_quality" value="Good" required>Good
+           <input type="radio" id="all_q3" name="all_quality" value="Average" required>Average
+           <input type="radio" id="all_q4" name="all_quality" value="Dissatisfied" required>Dissatisfied
+      </div>    
+    </div>
+    <div class="row">    
+      <div class="col-25">    
+        <label for="feed_back">Feed Back</label>    
+      </div>    
+      <div class="col-75">    
+        <textarea id="subject" name="subject" placeholder="Add a comment.." style="height:200px; font-size :20px;"></textarea>    
+      </div>    
+    </div> 
+    <center>   
+    <div class="row1">    
+      <input type="submit" value="Submit">    
+    </div>
+  </center> 
+  </form>    
+</div>    
+</body>    
+</html>   
